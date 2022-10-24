@@ -12,10 +12,10 @@ the model.
 
     Eg: Excel (csv)
 
-    | Name (Char)   | school (Foreign-key)   | course  |
-    | ------------- | ---------------------- | ------- |
-    | Jon           | Coding school          |  java   |  
-    |               |                        |  python |
+    | Name (Char)   | school (Foreign-key)   | course (ArrayReferenceField) |
+    | ------------- | ---------------------- | ---------------------------- |
+    | Jon           | Coding school          |  java                        |  
+    |               |                        |  python                      |
 
 ---
 
